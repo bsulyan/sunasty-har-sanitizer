@@ -3,10 +3,10 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { inspectHar, buildSafeDefaultPolicy, sanitizeHar } from '../index.js';
 
 function printHelp() {
-  console.log(`@sunasty/har-sanitizer v1.0.0
+  console.log(`har-clean v1.0.0
 
 Usage:
-  har-sanitizer <input.har | -> [options]
+  har-clean <input.har | -> [options]
 
 Options:
   -o, --out <file>         Write sanitized HAR JSON to <file> (default: stdout)

@@ -1,12 +1,12 @@
 {
-  "name": "@sunasty/har-sanitizer",
+  "name": "har-clean",
   "version": "1.0.0",
   "description": "Zero-dependency HAR 1.2 whitelist sanitizer, privacy inspector, waterfall analyzer, and cURL extractor with a built-in CLI.",
   "type": "module",
   "main": "./index.js",
   "types": "./index.d.ts",
   "bin": {
-    "har-sanitizer": "bin/cli.js"
+    "har-clean": "bin/cli.js"
   },
   "exports": {
     ".": {
