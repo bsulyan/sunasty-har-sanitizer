@@ -1,0 +1,52 @@
+{
+  "name": "sunasty-har-sanitizer",
+  "version": "1.0.0",
+  "description": "Zero-dependency HAR 1.2 whitelist sanitizer, privacy inspector, waterfall analyzer, and cURL extractor with a built-in CLI.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "bin": {
+    "sunasty-har-sanitizer": "./bin/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "bin/cli.js",
+    "index.js",
+    "index.d.ts",
+    "json-exact.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "keywords": [
+    "har",
+    "http-archive",
+    "sanitizer",
+    "privacy",
+    "security",
+    "redaction",
+    "curl",
+    "cli",
+    "devtools"
+  ],
+  "author": "Sunasty <https://sunasty.com>",
+  "license": "MIT",
+  "homepage": "https://sunasty.com/har-sanitizer/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsulyan/sunasty-har-sanitizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bsulyan/sunasty-har-sanitizer/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

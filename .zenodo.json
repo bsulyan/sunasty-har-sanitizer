@@ -1,0 +1,26 @@
+{
+  "title": "sunasty-har-sanitizer: Zero-dependency HAR 1.2 Whitelist Sanitizer and Privacy Inspector",
+  "description": "Zero-dependency library and CLI for forensic inspection and whitelist-based reconstruction of HTTP Archive (HAR 1.2) files without leaking cookies, auth headers, tokens, or query parameters.",
+  "creators": [
+    {
+      "name": "Sulyan, Bastien",
+      "affiliation": "Sunasty"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": ["har", "http-archive", "sanitizer", "privacy", "security", "cli"],
+  "related_identifiers": [
+    {
+      "identifier": "https://sunasty.com/har-sanitizer/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/bsulyan/sunasty-har-sanitizer",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "upload_type": "software"
+}

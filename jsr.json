@@ -1,0 +1,6 @@
+{
+  "name": "@sunasty/har-sanitizer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "exports": "./index.js"
+}
